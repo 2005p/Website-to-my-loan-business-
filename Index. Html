@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet "href="style.css"
+  <title>Lisa Loan Business</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lisa Loan Business</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+    </header>
+
+  <section id="home">
+    <h2>Welcome to Lisa Loan Business</h2>
+    <p>Your trusted partner for quick and reliable personal and small business loans. Fast approvals and flexible repayment plans to help you grow financially.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Personal Loans</li>
+      <li>Small Business Loans</li>
+      <li>Emergency Cash Advances</li>
+      <li>Flexible Repayment Options</li>
+    </ul>
+  </section>
+    <section class="apply-section">
+    <h2>Ready to Join?</h2>
+    <p>Don't miss out on this opportunity. Apply below and take the first step toward your future.</p>
+    <a href="#application-form" class="apply-button">Apply Now</a>
+  </section>
+
+    <section class="form-section">
+    <h2>Loan Application Form</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <select required>
+        <option value="">Select Loan Type</option>
+        <option>Personal Loan</option>
+        <option>Business Loan</option>
+        <option>Emergency Loan</option>
+      </select>
+      <input type="number" placeholder="Amount Requested (R)" required>
+      <textarea rows="4" placeholder="Purpose of the loan"></textarea>
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lisa Loan Business. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://www.facebook.com">Facebook</a>
+      <a href="https://www.instagram.com">Instagram</a>
+      <a href="https://www.twitter.com">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>
